@@ -1,7 +1,7 @@
 # emkei.cz
 
 emkei.cz is a spammer / WIP API that uses the website [emkei.cz](https://emkei.cz/) to send emails from any address, to any address.
-It uses the 2captcha API to bypass the hCaptcha proposed by the website
+It uses the 2captcha API to bypass the hCaptcha proposed by the website.
 
 ## Prerequisites
 
@@ -29,12 +29,13 @@ Open the config.json and edit the variables to your preferences.
 
 ```json
 {
+    "threads": 10,
     "sender_name": "Google Admin",
     "sender_email": "admin@gmail.com",
     "receiver_email": "template_email@gmail.com",
     "subject": "Test email",
     "message": "this is a test",
-    "api_key": "YOUR 2CAPTCHA API KEY",
+    "apiKey": "YOUR 2CAPTCHA API KEY",
     "balance_stop": 1.0
 }
 ```
