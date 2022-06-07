@@ -39,8 +39,8 @@ Open the config.json and edit the variables to your preferences.
 }
 ```
 
-`threads` defines the amout of concurrent threads that will be used to send emails.
-`apiKey` is your 2captcha API key.
+`threads` defines the amout of concurrent threads that will be used to send emails.\
+`apiKey` is your 2captcha API key.\
 `balance_stop` automatically stops the program if your 2captcha balance dips below a certain number.
 Everything else should be self explanatory
 
@@ -53,7 +53,7 @@ Execute the auto.py
 ![output](https://i.imgur.com/kAa6gAY.png)
 ![received email](https://i.imgur.com/tZhqZOc.png)
 
-(the emails are very likely to go into the spam folder. There is currently no fix for this that I am aware of.)
+(the emails are very likely to go into the spam folder. There is currently no fix for this that I am aware of)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
