@@ -1,11 +1,12 @@
 # emkei.cz
 
-emkei.cz is a spammer / WIP API that uses the website [emkei.cz](https://emkei.cz/) to send emails from any address, to any address. It uses the 2captcha API to bypass the hCaptcha proposed by the website
+emkei.cz is a spammer / WIP API that uses the website [emkei.cz](https://emkei.cz/) to send emails from any address, to any address.
+It uses the 2captcha API to bypass the hCaptcha proposed by the website
 
 ## Prerequisites
 
 - have python3+ installed.
-- 2captcha API key with balance
+- [2captcha](https://2captcha.com/) API key with balance
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the packages requests and twocaptcha.
 
@@ -52,12 +53,12 @@ Execute the auto.py
 ![output](https://i.imgur.com/kAa6gAY.png)
 ![received email](https://i.imgur.com/tZhqZOc.png)
 
-(the emails are very likely to go into the spam folder, there is currently no fix for this, that I am aware of)
+(the emails are very likely to go into the spam folder. There is currently no fix for this that I am aware of.)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-# Disclaimer
+## Disclaimer
 This repository is for research purposes only, the use of this code is your responsibility.
 
 I take NO responsibility and/or liability for how you choose to use any of the source code available here. By using any of the files available in this repository, you understand that you are AGREEING TO USE AT YOUR OWN RISK. Once again, ALL files available here are for EDUCATION and/or RESEARCH purposes ONLY.
