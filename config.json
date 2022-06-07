@@ -1,0 +1,10 @@
+{
+    "threads": 10,
+    "sender_name": "Google Admin",
+    "sender_email": "admin@gmail.com",
+    "receiver_email": "template_email@gmail.com",
+    "subject": "Test email",
+    "message": "this is a test",
+    "apiKey": "YOUR 2CAPTCHA API KEY",
+    "balance_stop": 1.0
+}
