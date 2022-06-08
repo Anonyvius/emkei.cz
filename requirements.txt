@@ -1,6 +1,2 @@
-<<<<<<< HEAD
 requests==2.27.1
 TwoCaptcha==0.0.1
-=======
-cooming soon!
->>>>>>> 384eed2093106377f660a86d764f90263f787a66
