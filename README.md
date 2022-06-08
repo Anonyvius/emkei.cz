@@ -8,24 +8,34 @@ It uses the 2captcha API to bypass the hCaptcha proposed by the website.
 - have python3+ installed.
 - [2captcha](https://2captcha.com/) API key with balance
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the packages requests and twocaptcha.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the packages requests and twocaptcha from the `requirements.txt`.
+
+```bash
+> pip3 install -r requirements.txt
+```
+
+Or if this doesn't work, install the packages manually, using:
 
 ```bash
 > pip3 install requests
 > pip3 install twocaptcha 
 ```
 
+The `config.json` and `auto.py` need to be in the same directory after downloading.
+
 ## Installation
 
-Use `git clone` to download the repository to your local machine
+Use `git clone` to download the repository to your local machine:
 
 ```bash
 > git clone https://github.com/Anonyvius/emkei.cz
 ```
 
+Open the downloaded folder.
+
 ## Usage
 
-Open the config.json and edit the variables to your preferences.
+Open the `config.json` and edit the variables to fit your preferences.
 
 ```json
 {
@@ -45,7 +55,7 @@ Open the config.json and edit the variables to your preferences.
 `balance_stop` automatically stops the program if your 2captcha balance dips below a certain number.\
 Everything else should be self explanatory
 
-Execute the auto.py
+Execute the `auto.py`
 
 ```bash
 > python3 auto.py
