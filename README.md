@@ -59,6 +59,8 @@ Execute the auto.py
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 ## Disclaimer
 This repository is for research purposes only, the use of this code is your responsibility.
 
