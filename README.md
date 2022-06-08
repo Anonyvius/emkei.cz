@@ -1,6 +1,6 @@
 # emkei.cz
 
-emkei.cz is a spammer / WIP API that uses the website [emkei.cz](https://emkei.cz/) to send emails from any address, to any address.
+emkei.cz is a mass sender / WIP API that uses the website [emkei.cz](https://emkei.cz/) to send emails from any address, to any address.\
 It uses the 2captcha API to bypass the hCaptcha proposed by the website.
 
 ## Prerequisites
