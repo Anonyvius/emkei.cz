@@ -5,8 +5,10 @@ It uses the 2captcha API to bypass the hCaptcha proposed by the website.
 
 ## Prerequisites
 
-- have python3+ installed.
+- python3+
 - [2captcha](https://2captcha.com/) API key with balance
+
+The `config.json` and `auto.py` need to be in the same directory after downloading.
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the packages requests and twocaptcha from the `requirements.txt`.
 
@@ -20,8 +22,6 @@ Or if this doesn't work, install the packages manually, using:
 > pip3 install requests
 > pip3 install twocaptcha 
 ```
-
-The `config.json` and `auto.py` need to be in the same directory after downloading.
 
 ## Installation
 
