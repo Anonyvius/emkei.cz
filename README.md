@@ -42,7 +42,7 @@ Open the config.json and edit the variables to your preferences.
 
 `threads` defines the amout of concurrent threads that will be used to send emails.\
 `apiKey` is your 2captcha API key.\
-`balance_stop` automatically stops the program if your 2captcha balance dips below a certain number.
+`balance_stop` automatically stops the program if your 2captcha balance dips below a certain number.\
 Everything else should be self explanatory
 
 Execute the auto.py
